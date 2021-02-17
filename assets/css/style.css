@@ -190,7 +190,7 @@ h6 {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     margin: 0;
-    color: #080245;
+    color: #000;
 }
 figure {
     margin: 0 0 0;
@@ -203,7 +203,7 @@ figure {
 :root{
     --white-color: #fff;
     --default-border-radious-5: 5px;
-    --default-deep-heading-color: #080245;
+    --default-deep-heading-color: #000;
     --home-1-color-blue: #0a8aff;
     --home-1-color-cyan: #2cd4d9;
     --home-1-default-gradient: linear-gradient(to right, rgba(42, 22, 155, 1) 39%, rgba(41, 137, 216, 1) 78%, rgba(44, 212, 217, 1) 95%);
@@ -264,7 +264,7 @@ figure {
     border: 1px solid var(--white-color);
 }
 .primary-title-color, .faq-area.faq-page-area h2.section-heading{
-    color: #080245;
+    color: #000;
 }
 .bg-dark, .reviews-slider-4 .single-review-slide-box{
     background-color: #21252e;
@@ -3323,7 +3323,7 @@ header.page-banner-area .header-caption-heading {
     border-bottom: 1px solid rgb(218, 218, 218);
 }
 .home-3-menu-area #mainNav .navbar-nav .nav-item .nav-link, .home-3-menu-area .top-nav ul li a{
-    color: #080245;
+    color: #000;
 }
 .home-3-menu-area #mainNav .navbar-nav .nav-item .nav-link:hover, .home-3-menu-area  #mainNav .navbar-nav .nav-item .nav-link.active, .home-3-menu-area #mainNav ul.navbar-nav li.nav-item.dropdown-box .dropdown-list a:hover,
 .home-3-menu-area .top-nav ul li a:hover{
