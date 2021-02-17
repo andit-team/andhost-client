@@ -229,11 +229,18 @@ figure {
 .contact-page-address-wrap div:nth-child(2) .contact_us_box ul li a:hover{
     color: #060297;
 }
-.default-gradiant-bg, .home-banner-area, header.page-banner-area, .about-media-box::before {
-    background: var(--home-1-default-gradient);
+.default-gradiant-bg, .home-banner-area, header.page-banner-area {
+    background: #fff;
 }
-.different-bg, .features-area, .counter-area, .client-logo-slider-area, .services-area, .our-speciality-area{
+.about-media-box::before {
+    background: var(--home-3-default-gradiant-color1);
+}
+.different-bg, .features-area, .counter-area, .client-logo-slider-area, .services-area, .our-speciality-area,
+.contact-page-form-area {
     background-color: #f5f6fa;
+}
+.client-logo-slider-area, .features-area {
+    border-bottom: 1px solid #e8e6e6;
 }
 .light-blue-color, .widget-popular-tags ul li a:hover, .chat-bot-box{
     background-color: var(--home-1-color-blue);
@@ -241,20 +248,24 @@ figure {
 .color-light, .hero-area-content p, .count-content, #accordion6 .panel-title a
 , .copyright-text p a, .footer-social-links li a:hover, .call-to-content h2,
 .call-to-action-area .call-to-content h2, .pricing-table-box a:hover, .breadcrumb li.breadcrumb-item a,  .service-price-btn > a:hover, .pagination-area li:hover .page-link, .top-nav ul li a:hover, .home-2  .scroll-to-bottom a:hover{
-    color: var(--home-1-color-cyan);
+    color: var(--home-3-color-orange);
 }
 .primary-font-color, .pricing-table-box a, .why-choose-content-box h4, .why-choose-inner-content i, .speciality-content i, .speciality-content p span, .testimonial-slide-box h5,
 .footer-links-list li a:hover, .footer-social-links li a:hover, .counter-number, .widget-categories ul li a:hover, .widget-recent-posts ul li a:hover p,
 #content .share-box > button:hover, .service-price-btn > a, .pagination-area .page-link, .contact_us_box_list li a:hover, .footer-logo p a:hover{
-    color: var(--home-1-color-blue);
+    color: var(--home-3-color-orange);
 }
 .bg-white, .copyright-area, .single-blog-post, .our-speciality-area .our-speciality-content-wrap, .all-blog-posts-area, .services-page-area-2, .single-blog-post, .pricing-details-wrap, .pagination-area .page-link{
      background-color: var(--white-color);
  }
 .color-white , .hero-area-content h1, .counter-box i,
 .faq-area h2.section-heading, .footer-widget h4, .copyright-text p, .footer-social-links li a, .copyright-text p a:hover, .call-to-left, .call-to-action-area .call-to-content h2 > span, .scroll-to-bottom a,
-.footer-newsletter h3, h1.header-caption-heading, .widget-popular-tags ul li a:hover, .subm-btn.theme-button input, .top-nav ul li a, .chat-bot-box, .chat-bot-box:hover, .contact-page-address-wrap div:nth-child(2) .contact_us_box,
+.footer-newsletter h3, h1.header-caption-heading, .widget-popular-tags ul li a:hover, .top-nav ul li a, .chat-bot-box, .chat-bot-box:hover, .contact-page-address-wrap div:nth-child(2) .contact_us_box,
 .contact-page-address-wrap div:nth-child(2) .contact_us_box h4, .contact-page-address-wrap div:nth-child(2) .contact_us_box ul li a, .footer-logo p a{
+    /*color: var(--white-color);*/
+}
+.subm-btn.theme-button input, .contact-page-address-wrap div:nth-child(2) .contact_us_box h4, .contact-page-address-wrap div:nth-child(2) .contact_us_box,
+.contact-page-address-wrap div:nth-child(2) .contact_us_box ul li a, .faq-area h2.section-heading{
     color: var(--white-color);
 }
 .footer-links-list li a, .footer-logo p{
@@ -395,7 +406,7 @@ section{
     width: 100%;
 }
 .page-banner-area .section-overlay {
-    background-color: rgba(0,0,0,.1);
+    background-color: rgba(0,0,0,.04);
 }
 
 .all-section-after::after{
@@ -737,6 +748,7 @@ button:focus {
     border-radius: 5px;
     font-size: 19px;
     z-index: 9;
+    color: #fff;
 }
 .chat-bot-box:hover{
     box-shadow: 0 0 39px 4px rgba(205, 205, 205, 0.40);
@@ -1434,7 +1446,7 @@ input#domain-name {
 }
 .pricing-table-box-price{
     font-size: 48px;
-    color: #0a8aff;
+    color: #cc0000;
     line-height: 52px;
     margin-bottom: 20px;
     position: relative
@@ -1460,12 +1472,12 @@ input#domain-name {
 }
 .pricing-table-box-price span{
     font-size: 16px;
-    color: #0a8aff;
+    color: #000;
 }
 .discount-tag{
     font-size: 20px;
     line-height: 24px;
-    color: #321d9a;
+    color: #000;
     margin-bottom: 30px
 }
 .discount-tag span{
@@ -1481,14 +1493,14 @@ input#domain-name {
     margin-top: 30px
 }
 .pricing-table-box.active{
-    background: #321d9a; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #008ded 0%, #00e8d3 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #008ded 0%, #00e8d3 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #008ded 0%, #00e8d3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: #000; /* Old browsers */
+    background: -moz-linear-gradient(135deg, #fe9e1f 0%, #f22328 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(135deg, #fe9e1f 0%, #f22328 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #fe9e1f 0%, #f22328 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .popular-price-tag {
     position: absolute;
-    background: linear-gradient(135deg, #008ded 0%, #00e8d3 100%);
+    background: linear-gradient(135deg, #fe9e1f 0%, #f22328 100%);
     padding: 7px 46px;
     color: #fff;
     transform: rotate(-45deg);
@@ -1744,6 +1756,7 @@ input#domain-name {
 .speciality-content p span {
     display: block;
     line-height: 11px;
+    font-size: 1.2rem;
 }
 .speciality-content i {
     font-size: 17px;
@@ -1917,7 +1930,8 @@ input#domain-name {
     position: absolute;
     top: 0;
     z-index: -1;
-    background: linear-gradient(to right, rgb(42, 22, 155) 39%, rgba(41, 137, 216,.95) 78%, rgb(44, 212, 217) 100%);
+    /*background: linear-gradient(to right, rgb(42, 22, 155) 39%, rgba(41, 137, 216,.95) 78%, rgb(44, 212, 217) 100%);*/
+    background: var(--home-3-default-gradiant-color1);
 }
 /*-------------------------------------------
     16. Call To Action Area End
@@ -2199,7 +2213,7 @@ input#domain-name {
     22. Video Play CSS Start
 -------------------------------------------*/
 .play-button {
-    color: #0a8aff;
+    color: #cc0000;
     background-color: #fff;
     height: 70px;
     width: 70px;
@@ -2298,7 +2312,7 @@ header.page-banner-area .header-caption-heading {
     font-size: 18px;
 }
 .breadcrumb-item.active {
-    color: #fff;
+    color: #000;
 }
 .breadcrumb-item + .breadcrumb-item::before {
     content: "";
@@ -2494,7 +2508,7 @@ header.page-banner-area .header-caption-heading {
 }
 #content .block-1 blockquote p {
     margin-bottom: 0;
-    border-left: 5px solid #0a8aff;
+    border-left: 5px solid var(--home-3-color-orange);
     padding-left: 14px;
     font-style: italic;
 }
@@ -2593,13 +2607,13 @@ header.page-banner-area .header-caption-heading {
     width: calc(100% - 55px);
     float: left;
     background-color: #fff;
-    border: 1px solid var(--home-1-color-blue);
+    border: 1px solid #cc0000;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
 .widget-search .form-inline {
     width: 100%;
-    background-color: #eeeff0;
+    background-color: transparent;
 }
 .widget-search .form-inline > button {
     width: 55px;
@@ -2625,7 +2639,7 @@ header.page-banner-area .header-caption-heading {
     width: 30%;
     content: "";
     left: 0;
-    background: linear-gradient(to right, rgb(42, 22, 155) 10%, rgb(41, 137, 216) 50%, rgb(44, 212, 217) 95%);
+    background: var(--home-3-default-gradiant-color1);
     bottom: -9px;
 }
 .widget ul li a {
@@ -2735,7 +2749,7 @@ header.page-banner-area .header-caption-heading {
     width: 100%;
     padding: 50px 30px;
     margin-top: 100px;
-    border-top: 2px solid var(--home-1-color-blue);
+    border-top: 2px solid var(--home-3-color-orange);
     border-radius: var(--default-border-radious-5);
     box-shadow: 0px 14px 45px 0px rgba(205, 205, 205, 0.35);
 }
@@ -2803,7 +2817,7 @@ header.page-banner-area .header-caption-heading {
     justify-content: center;
 }
 .contact-page-address-wrap div:nth-child(2) .contact_us_box{
-    background: linear-gradient(135deg, #008ded 0%, #00e8d3 100%);
+    background: linear-gradient(135deg, #cc0000 0%, #fe9e1f 100%);
 }
 .contact_us_box h4 {
     margin-bottom: 20px;
@@ -3280,7 +3294,7 @@ header.page-banner-area .header-caption-heading {
 -------------------------------------------*/
 /* Home Version 3 Default CSS*/
 .home-3 a:hover {
-    color: var(--home-3-color-gold);
+    color: #cc0000;
 }
 .home-3 .theme-button, .home-3 .theme-button:before{
     background: var(--home-3-default-gradiant-color1);
@@ -3308,7 +3322,7 @@ header.page-banner-area .header-caption-heading {
     color: var(--home-3-color-orange);
 }
 .home-3 .chat-bot-box {
-    background: var(--home-3-color-gold);
+    background: #cc0000;
 }
 .home-3 .chat-bot-box:hover {
     color: var(--white-color);
@@ -3451,7 +3465,7 @@ header.page-banner-area .header-caption-heading {
 /*--- Home Version 3 Why Choose Us CSS Start---*/
 .home-3-why-choose-us-area .why-choose-content-box h4, .home-3-why-choose-us-area .why-choose-inner-content i, .home-3-our-speciality-area .speciality-content i, .home-3-our-speciality-area .speciality-content p span,
 .home-3-testimonial-area .testimonial-slide-box h5, .home-3-counter-area .counter-number{
-    color: var(--home-3-color-gold);
+    color: #cc0000;
 }
 /*--- Home Version 3 Why Choose Us CSS End---*/
 
@@ -3517,8 +3531,11 @@ header.page-banner-area .header-caption-heading {
 .contact-form-wrapper .input--nao{
     width: 100%;
 }
-.home-3-contact-area .graphic--nao {
-    stroke: var(--home-3-color-gold);
+.home-3-contact-area .graphic--nao, .graphic--nao {
+    stroke: #000;
+}
+.input__field--nao:focus ~ .graphic--nao, .input--filled .graphic--nao {
+    stroke: var(--home-3-color-orange);
 }
 /*--- Home Version 3 Contact/Support CSS End---*/
 
@@ -3550,7 +3567,7 @@ header.page-banner-area .header-caption-heading {
     border-top: 1px solid rgb(218, 218, 218);
 }
 .footer-area-3 .copyright-text p a {
-    color: var(--home-3-color-gold);
+    color: #cc0000;
 }
 .footer-area-3 .footer-widget h4, .footer-area-3 .footer-links-list li a, .footer-area-3 .copyright-text p, .footer-area-3 .footer-social-links li a {
     color: var(--default-deep-heading-color);
@@ -3562,7 +3579,7 @@ header.page-banner-area .header-caption-heading {
     color: var(--home-3-color-orange);
 }
 .footer-area-3 .footer-newsletter h3{
-    color: var(--home-3-color-gold);
+    color: #cc0000;
 }
 /*--- Home Version 3 Footer 3 CSS End---*/
 
@@ -3590,7 +3607,7 @@ header.page-banner-area .header-caption-heading {
 }
 
 .login-form-1 .login-yet a {
-    color: #0062cc;
+    color: #000;
     display: inline-block;
 }
 /*-------------------------------------------

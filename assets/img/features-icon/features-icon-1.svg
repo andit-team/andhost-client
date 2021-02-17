@@ -2,7 +2,7 @@
     <style>
         .path {
         fill: none;
-        stroke: #008ded;
+        stroke: #fe9e1f;
         stroke-width: 10px;
         stroke-dasharray: 1000;
         stroke-dashoffset: 1000;
@@ -18,7 +18,7 @@
         }
         }
     </style>
-<linearGradient id="a"><stop offset="0" stop-color="#00efd1"/><stop offset="1" stop-color="#00acea"/></linearGradient>
+<linearGradient id="a"><stop offset="0" stop-color="#cc0000"/><stop offset="1" stop-color="#cc0000"/></linearGradient>
 <linearGradient id="b" gradientTransform="matrix(1 0 0 -1 -70.65386 487.345181)" gradientUnits="userSpaceOnUse" x1="256" x2="256" xlink:href="#a" y1="502" y2="19.934"/>
 <linearGradient id="c" gradientTransform="matrix(1 0 0 -1 -70.65386 487.345181)" gradientUnits="userSpaceOnUse" x1="256.052" x2="256.052" xlink:href="#a" y1="502" y2="19.934"/>
 <path d="m364.578125 86.804688-174.730469-85.785157c-2.792968-1.359375-6.058594-1.359375-8.851562 0l-174.851563 85.535157c-3.472656 1.65625-5.71875 5.128906-5.796875 8.980468v163.648438c0 20.347656 6.640625 43.800781 18.382813 66.023437 11.757812 22.257813 27.601562 40.847657 44.460937 52.339844l116.476563 79.410156c3.410156 2.3125 7.890625 2.3125 11.300781 0l116.613281-79.410156c35.09375-23.925781 62.765625-75.917969 62.765625-118.363281v-163.40625c-.074218-3.839844-2.304687-7.3125-5.769531-8.972656zm-14.230469 172.378906c0 35.910156-24.332031 81.59375-54.027344 101.839844l-110.886718 75.566406-111.019532-75.566406c-29.1875-19.902344-54.066406-66.539063-54.066406-101.839844v-157.410156l164.992188-80.636719 165.007812 80.871093zm0 0" fill="url(#b)"/>

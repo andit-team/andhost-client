@@ -3,9 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="4eb4e183-de19-4c30-b5fe-dc0dd5d26471" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/counter-icon/client.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/counter-icon/client.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/counter-icon/domain.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/counter-icon/domain.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/counter-icon/feedback.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/counter-icon/feedback.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/counter-icon/hosting.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/counter-icon/hosting.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features-icon/features-icon-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/features-icon/features-icon-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features-icon/features-icon-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/features-icon/features-icon-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features-icon/features-icon-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/features-icon/features-icon-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-classic.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-classic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain.html" beforeDir="false" afterPath="$PROJECT_DIR$/domain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hosting.html" beforeDir="false" afterPath="$PROJECT_DIR$/hosting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index - Copy.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pricing-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/pricing-table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services-classic.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-classic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-service-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-service-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-service.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-service.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +54,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -42,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613303950485</updated>
       <workItem from="1613303957021" duration="244000" />
-      <workItem from="1613549618683" duration="1628000" />
+      <workItem from="1613549618683" duration="9994000" />
     </task>
     <servers />
   </component>

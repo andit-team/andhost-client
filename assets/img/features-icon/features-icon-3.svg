@@ -3,7 +3,7 @@ viewBox="0 0 480.669 480.669" style="enable-background:new 0 0 480.669 480.669;"
         <style>
         .path {
         fill: none;
-        stroke: #008ded;
+        stroke: #fe9e1f;
         stroke-width: 10px;
         stroke-dasharray: 1000;
         stroke-dashoffset: 1000;
@@ -20,8 +20,8 @@ viewBox="0 0 480.669 480.669" style="enable-background:new 0 0 480.669 480.669;"
         }
     </style>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-26.8303" y1="557.5862" x2="-26.8303" y2="615.4742" gradientTransform="matrix(8 0 0 -8 454.977 4947.0225)">
-<stop  offset="0" style="stop-color:#006DF0"/>
-<stop  offset="1" style="stop-color:#00E7F0"/>
+<stop  offset="0" style="stop-color:#cc0000"/>
+<stop  offset="1" style="stop-color:#cc0000"/>
 </linearGradient>
 <path style="fill:url(#SVGID_1_);" d="M479.571,120.109c-1.06-1.837-2.807-3.178-4.856-3.728l-18.712-5.016
 c-0.085-6.832-0.971-13.631-2.64-20.256l16.72-9.64c3.825-2.211,5.135-7.104,2.924-10.929c-0.001-0.002-0.003-0.004-0.004-0.007
